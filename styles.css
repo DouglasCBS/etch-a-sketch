@@ -8,9 +8,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-flow: column;
+    gap: 16px;
 }
 
 #container {
+    border: 1px solid black;
     height: 800px;
     width: 800px;
     display: grid;
@@ -19,6 +22,10 @@ body {
    
 }
 
-.blocks {
-    border: 1px solid black;
+button {
+    background-color: purple;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 16px;
 }
